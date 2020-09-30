@@ -1,0 +1,138 @@
+{
+    "wall_times": {
+        "compute_reconstructions": 1.8404409885406494, 
+        "compute_image_pairs": 4.665176868438721, 
+        "load_tracks_graph": 0.0004799365997314453
+    }, 
+    "reconstructions": [
+        {
+            "bootstrap": {
+                "memory_usage": 87863296, 
+                "image_pair": [
+                    "DJI_0023.JPG", 
+                    "DJI_0024.JPG"
+                ], 
+                "decision": "Success", 
+                "triangulated_points": 107, 
+                "two_view_reconstruction": {
+                    "5_point_inliers": 106, 
+                    "plane_based_inliers": 106, 
+                    "method": "plane_based"
+                }, 
+                "common_tracks": 108
+            }, 
+            "stats": {
+                "average_track_length": 2.3097014925373136, 
+                "points_count": 536, 
+                "observations_count": 1238, 
+                "cameras_count": 6, 
+                "average_track_length_notwo": 3.296875
+            }, 
+            "grow": {
+                "steps": [
+                    {
+                        "resection": {
+                            "num_inliers": 30, 
+                            "num_common_points": 31
+                        }, 
+                        "retriangulation": {
+                            "num_points_after": 134, 
+                            "num_points_before": 132, 
+                            "wall_time": 0.08554601669311523
+                        }, 
+                        "memory_usage": 88416256, 
+                        "image": "DJI_0022.JPG", 
+                        "bundle": {
+                            "wall_times": {
+                                "teardown": 0.004116058349609375, 
+                                "setup": 0.007230043411254883, 
+                                "run": 0.06613802909851074
+                            }, 
+                            "brief_report": "Ceres Solver Report: Iterations: 36, Initial cost: 4.352232e-01, Final cost: 3.270318e-01, Termination: CONVERGENCE"
+                        }, 
+                        "triangulated_points": 26, 
+                        "bundle_after_retriangulation": {
+                            "wall_times": {
+                                "teardown": 0.0040891170501708984, 
+                                "setup": 0.007292985916137695, 
+                                "run": 0.03768491744995117
+                            }, 
+                            "brief_report": "Ceres Solver Report: Iterations: 19, Initial cost: 4.721248e-01, Final cost: 3.503039e-01, Termination: CONVERGENCE"
+                        }
+                    }, 
+                    {
+                        "resection": {
+                            "num_inliers": 33, 
+                            "num_common_points": 37
+                        }, 
+                        "retriangulation": {
+                            "num_points_after": 331, 
+                            "num_points_before": 330, 
+                            "wall_time": 0.17238187789916992
+                        }, 
+                        "memory_usage": 88895488, 
+                        "image": "DJI_0025.JPG", 
+                        "bundle": {
+                            "wall_times": {
+                                "teardown": 0.010050058364868164, 
+                                "setup": 0.015876054763793945, 
+                                "run": 0.2032780647277832
+                            }, 
+                            "brief_report": "Ceres Solver Report: Iterations: 30, Initial cost: 2.546318e+00, Final cost: 6.786649e-01, Termination: CONVERGENCE"
+                        }, 
+                        "triangulated_points": 198, 
+                        "bundle_after_retriangulation": {
+                            "wall_times": {
+                                "teardown": 0.009582996368408203, 
+                                "setup": 0.015922069549560547, 
+                                "run": 0.030020952224731445
+                            }, 
+                            "brief_report": "Ceres Solver Report: Iterations: 5, Initial cost: 1.043156e+00, Final cost: 6.794329e-01, Termination: CONVERGENCE"
+                        }
+                    }, 
+                    {
+                        "resection": {
+                            "num_inliers": 47, 
+                            "num_common_points": 49
+                        }, 
+                        "retriangulation": {
+                            "num_points_after": 507, 
+                            "num_points_before": 502, 
+                            "wall_time": 0.24359488487243652
+                        }, 
+                        "memory_usage": 89374720, 
+                        "image": "DJI_0026.JPG", 
+                        "bundle": {
+                            "wall_times": {
+                                "teardown": 0.0152130126953125, 
+                                "setup": 0.02360081672668457, 
+                                "run": 0.09955716133117676
+                            }, 
+                            "brief_report": "Ceres Solver Report: Iterations: 13, Initial cost: 1.536844e+00, Final cost: 1.051493e+00, Termination: CONVERGENCE"
+                        }, 
+                        "triangulated_points": 178, 
+                        "bundle_after_retriangulation": {
+                            "wall_times": {
+                                "teardown": 0.01476907730102539, 
+                                "setup": 0.023602962493896484, 
+                                "run": 0.04472208023071289
+                            }, 
+                            "brief_report": "Ceres Solver Report: Iterations: 4, Initial cost: 1.543983e+00, Final cost: 1.108704e+00, Termination: CONVERGENCE"
+                        }
+                    }, 
+                    {
+                        "resection": {
+                            "num_inliers": 54, 
+                            "num_common_points": 55
+                        }, 
+                        "image": "DJI_0021.JPG", 
+                        "memory_usage": 90132480, 
+                        "triangulated_points": 50
+                    }
+                ]
+            }
+        }
+    ], 
+    "not_reconstructed_images": [], 
+    "num_candidate_image_pairs": 6
+}

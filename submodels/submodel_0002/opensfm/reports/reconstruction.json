@@ -1,0 +1,129 @@
+{
+    "wall_times": {
+        "compute_reconstructions": 3.123479127883911, 
+        "compute_image_pairs": 4.636770009994507, 
+        "load_tracks_graph": 0.0007929801940917969
+    }, 
+    "reconstructions": [
+        {
+            "bootstrap": {
+                "memory_usage": 87683072, 
+                "image_pair": [
+                    "DJI_0033.JPG", 
+                    "DJI_0034.JPG"
+                ], 
+                "decision": "Success", 
+                "triangulated_points": 268, 
+                "two_view_reconstruction": {
+                    "5_point_inliers": 268, 
+                    "plane_based_inliers": 267, 
+                    "method": "5_point"
+                }, 
+                "common_tracks": 268
+            }, 
+            "stats": {
+                "average_track_length": 2.193502824858757, 
+                "points_count": 708, 
+                "observations_count": 1553, 
+                "cameras_count": 5, 
+                "average_track_length_notwo": 3.0
+            }, 
+            "grow": {
+                "steps": [
+                    {
+                        "resection": {
+                            "num_inliers": 55, 
+                            "num_common_points": 57
+                        }, 
+                        "retriangulation": {
+                            "num_points_after": 449, 
+                            "num_points_before": 442, 
+                            "wall_time": 0.21750402450561523
+                        }, 
+                        "memory_usage": 88821760, 
+                        "image": "DJI_0035.JPG", 
+                        "bundle": {
+                            "wall_times": {
+                                "teardown": 0.013381004333496094, 
+                                "setup": 0.020674943923950195, 
+                                "run": 0.2259829044342041
+                            }, 
+                            "brief_report": "Ceres Solver Report: Iterations: 39, Initial cost: 1.156104e+01, Final cost: 8.424985e-01, Termination: CONVERGENCE"
+                        }, 
+                        "triangulated_points": 185, 
+                        "bundle_after_retriangulation": {
+                            "wall_times": {
+                                "teardown": 0.012984991073608398, 
+                                "setup": 0.021030187606811523, 
+                                "run": 0.02750992774963379
+                            }, 
+                            "brief_report": "Ceres Solver Report: Iterations: 3, Initial cost: 1.270289e+00, Final cost: 9.210017e-01, Termination: CONVERGENCE"
+                        }
+                    }, 
+                    {
+                        "resection": {
+                            "num_inliers": 57, 
+                            "num_common_points": 57
+                        }, 
+                        "retriangulation": {
+                            "num_points_after": 553, 
+                            "num_points_before": 534, 
+                            "wall_time": 0.2752819061279297
+                        }, 
+                        "memory_usage": 89714688, 
+                        "image": "DJI_0032.JPG", 
+                        "bundle": {
+                            "wall_times": {
+                                "teardown": 0.016054868698120117, 
+                                "setup": 0.02565598487854004, 
+                                "run": 0.23438596725463867
+                            }, 
+                            "brief_report": "Ceres Solver Report: Iterations: 32, Initial cost: 1.453490e+01, Final cost: 1.012967e+00, Termination: CONVERGENCE"
+                        }, 
+                        "triangulated_points": 104, 
+                        "bundle_after_retriangulation": {
+                            "wall_times": {
+                                "teardown": 0.016224145889282227, 
+                                "setup": 0.026458024978637695, 
+                                "run": 0.03583097457885742
+                            }, 
+                            "brief_report": "Ceres Solver Report: Iterations: 3, Initial cost: 1.663131e+00, Final cost: 1.255288e+00, Termination: CONVERGENCE"
+                        }
+                    }, 
+                    {
+                        "resection": {
+                            "num_inliers": 24, 
+                            "num_common_points": 30
+                        }, 
+                        "retriangulation": {
+                            "num_points_after": 734, 
+                            "num_points_before": 713, 
+                            "wall_time": 0.34674811363220215
+                        }, 
+                        "memory_usage": 90189824, 
+                        "image": "DJI_0031.JPG", 
+                        "bundle": {
+                            "wall_times": {
+                                "teardown": 0.02176499366760254, 
+                                "setup": 0.0333709716796875, 
+                                "run": 0.2805960178375244
+                            }, 
+                            "brief_report": "Ceres Solver Report: Iterations: 29, Initial cost: 1.830617e+01, Final cost: 1.491754e+00, Termination: CONVERGENCE"
+                        }, 
+                        "triangulated_points": 181, 
+                        "bundle_after_retriangulation": {
+                            "wall_times": {
+                                "teardown": 0.021697044372558594, 
+                                "setup": 0.03452801704406738, 
+                                "run": 0.047905921936035156
+                            }, 
+                            "brief_report": "Ceres Solver Report: Iterations: 3, Initial cost: 2.448205e+00, Final cost: 1.901809e+00, Termination: CONVERGENCE"
+                        }
+                    }
+                ]
+            }
+        }
+    ], 
+    "not_reconstructed_images": [], 
+    "num_candidate_image_pairs": 3
+}

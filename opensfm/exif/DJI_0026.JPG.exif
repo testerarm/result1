@@ -1,0 +1,17 @@
+{
+    "orientation": 1, 
+    "band_name": "RGB", 
+    "height": 225, 
+    "capture_time": 1466699577.0, 
+    "focal_ratio": 0.5555555555555556, 
+    "make": "DJI", 
+    "projection_type": "brown", 
+    "width": 400, 
+    "camera": "v2 dji fc300s 400 225 brown 0.5555 rgb", 
+    "model": "FC300S", 
+    "gps": {
+        "latitude": 46.842690250000004, 
+        "altitude": 198.609, 
+        "longitude": -91.9939543888889
+    }
+}

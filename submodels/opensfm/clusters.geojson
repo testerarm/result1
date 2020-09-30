@@ -1,0 +1,257 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -91.9934553056, 
+                    46.8427165556
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "name": "DJI_0035.JPG", 
+                "submodel": 2
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -91.9941766389, 
+                    46.8428651389
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "name": "DJI_0021.JPG", 
+                "submodel": 1
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -91.9945598889, 
+                    46.8426070833
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "name": "DJI_0018.JPG", 
+                "submodel": 0
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -91.9936966667, 
+                    46.8428646111
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "name": "DJI_0024.JPG", 
+                "submodel": 1
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -91.9939535556, 
+                    46.8423714722
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "name": "DJI_0031.JPG", 
+                "submodel": 2
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -91.9939543889, 
+                    46.84269025
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "name": "DJI_0026.JPG", 
+                "submodel": 1
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -91.9937026944, 
+                    46.84254325
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "name": "DJI_0033.JPG", 
+                "submodel": 2
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -91.9939230556, 
+                    46.8430380556
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "name": "DJI_0023.JPG", 
+                "submodel": 1
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -91.9938293056, 
+                    46.8424584444
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "name": "DJI_0032.JPG", 
+                "submodel": 2
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -91.9944272778, 
+                    46.8426906667
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "name": "DJI_0019.JPG", 
+                "submodel": 0
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -91.9940517222, 
+                    46.8429515833
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "name": "DJI_0022.JPG", 
+                "submodel": 1
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -91.9935786667, 
+                    46.8426292778
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "name": "DJI_0034.JPG", 
+                "submodel": 2
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -91.9940841667, 
+                    46.8422816111
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "name": "DJI_0030.JPG", 
+                "submodel": 0
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -91.9940827778, 
+                    46.8426053889
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "name": "DJI_0027.JPG", 
+                "submodel": 0
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -91.9943333889, 
+                    46.8424339167
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "name": "DJI_0029.JPG", 
+                "submodel": 0
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -91.9938259444, 
+                    46.8427738611
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "name": "DJI_0025.JPG", 
+                "submodel": 1
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -91.9942993889, 
+                    46.8427775833
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "name": "DJI_0020.JPG", 
+                "submodel": 0
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -91.9942096111, 
+                    46.84252125
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "name": "DJI_0028.JPG", 
+                "submodel": 0
+            }
+        }
+    ]
+}

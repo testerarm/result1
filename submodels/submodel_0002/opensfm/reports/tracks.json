@@ -1,0 +1,82 @@
+{
+    "wall_times": {
+        "load_matches": 0.009508132934570312, 
+        "compute_tracks": 0.06774783134460449, 
+        "load_features": 0.10184597969055176
+    }, 
+    "num_images": 5, 
+    "view_graph": [
+        [
+            "DJI_0035.JPG", 
+            "DJI_0033.JPG", 
+            82
+        ], 
+        [
+            "DJI_0035.JPG", 
+            "DJI_0034.JPG", 
+            221
+        ], 
+        [
+            "DJI_0031.JPG", 
+            "DJI_0033.JPG", 
+            40
+        ], 
+        [
+            "DJI_0031.JPG", 
+            "DJI_0032.JPG", 
+            201
+        ], 
+        [
+            "DJI_0033.JPG", 
+            "DJI_0035.JPG", 
+            82
+        ], 
+        [
+            "DJI_0033.JPG", 
+            "DJI_0031.JPG", 
+            40
+        ], 
+        [
+            "DJI_0033.JPG", 
+            "DJI_0032.JPG", 
+            153
+        ], 
+        [
+            "DJI_0033.JPG", 
+            "DJI_0034.JPG", 
+            268
+        ], 
+        [
+            "DJI_0032.JPG", 
+            "DJI_0031.JPG", 
+            201
+        ], 
+        [
+            "DJI_0032.JPG", 
+            "DJI_0033.JPG", 
+            153
+        ], 
+        [
+            "DJI_0032.JPG", 
+            "DJI_0034.JPG", 
+            65
+        ], 
+        [
+            "DJI_0034.JPG", 
+            "DJI_0035.JPG", 
+            221
+        ], 
+        [
+            "DJI_0034.JPG", 
+            "DJI_0033.JPG", 
+            268
+        ], 
+        [
+            "DJI_0034.JPG", 
+            "DJI_0032.JPG", 
+            65
+        ]
+    ], 
+    "num_tracks": 734, 
+    "wall_time": 0.17910194396972656
+}
